@@ -1,0 +1,111 @@
+body {
+  background: linear-gradient(135deg, #f8fafc 0%, #e3e6f3 100%);
+  color: #232946;
+}
+
+.App {
+  text-align: center;
+}
+
+/* Logo styling */
+.octofit-logo {
+  background: #fff;
+  border-radius: 50%;
+  padding: 2px;
+  box-shadow: 0 2px 8px rgba(111,66,193,0.15);
+}
+
+/* Navbar custom */
+.navbar {
+  background: linear-gradient(90deg, #6f42c1 0%, #4f8cff 100%) !important;
+}
+.navbar-brand span {
+  color: #ffe082 !important;
+}
+.navbar-nav .nav-link {
+  color: #ffe082 !important;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.navbar-nav .nav-link:hover {
+  color: #fff !important;
+}
+
+/* Headings */
+h1, .display-4 {
+  color: #6f42c1;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+h5, .card-title {
+  color: #4f8cff;
+}
+
+/* Table styling */
+.table {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(111,66,193,0.07);
+}
+.table thead {
+  background: #6f42c1;
+  color: #fff;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f3eafe;
+}
+.table-bordered th, .table-bordered td {
+  border-color: #6f42c1;
+}
+
+/* Buttons */
+.btn-primary, .btn-success {
+  background: linear-gradient(90deg, #6f42c1 0%, #4f8cff 100%);
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(111,66,193,0.10);
+}
+.btn-primary:hover, .btn-success:hover {
+  background: #4f8cff;
+  color: #ffe082;
+}
+.btn-outline-secondary {
+  border-color: #6f42c1;
+  color: #6f42c1;
+}
+.btn-outline-secondary:hover {
+  background: #6f42c1;
+  color: #fff;
+}
+
+/* Card styling */
+.card {
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(111,66,193,0.10);
+  border: none;
+}
+.card-title {
+  font-weight: 700;
+}
+
+/* Links */
+a, .App-link {
+  color: #4f8cff;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+a:hover, .App-link:hover {
+  color: #6f42c1;
+}
+
+/* Form styling */
+.form-label {
+  color: #6f42c1;
+  font-weight: 600;
+}
+.form-control:focus {
+  border-color: #4f8cff;
+  box-shadow: 0 0 0 0.2rem rgba(79,140,255,0.15);
+}
